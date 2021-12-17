@@ -1,0 +1,150 @@
+/* Setting default background color and border-box */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* This is code for the navigation bar at the top of the page*/
+/* It contains the company name on the left and links to info on the page on the right*/
+
+.top {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.top h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 25px;
+    padding-top: 1px;
+}
+
+.top ul {
+    margin-right: 5px;
+    padding-top: 15px;
+    float: right;
+  }
+
+.top li {
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    }
+
+.top ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Set default font size to 16 for text in <p> */
+
+p {
+    font-size: 16px;
+}
+
+/* Set height and width and external location for the Meeting picture */
+/* Define margines */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+/* Define the 3 boxes below the marketing picture */
+/* Each section has a picture and text */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.what-we-do {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.what-we-do img {
+    max-height: 200px;
+}
+
+.what-we-do h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Align pics to left/right of text */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Defines the benefits section on the takes up the remaining 20% of the screen on the right*/
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-list {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-list h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-list img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Define footer css */
+/* Text is centered, Trebuchet font, Heading font is 20px */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
